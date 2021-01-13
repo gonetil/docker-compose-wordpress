@@ -1,6 +1,6 @@
-# Docker-compose file for a typical Wordpress proyect
+# Docker-compose file for a typical Wordpress project
 
-Includes independent Docker containers for Apache2, MySQL, PHP-FPM and PhpMyAdmin.
+Includes Docker containers for Apache2, MySQL, PHP-FPM and PhpMyAdmin.
 Versions for php, apache2 and mysql are parametrized in .env file
 
 Database initialization can be done by putting SQL files inside docker-compose/mysql directory.
